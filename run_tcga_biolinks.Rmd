@@ -60,7 +60,7 @@ library(SummarizedExperiment)
 ## Define project of interest
 ```{r define project of interest}
 project_name <- "TCGA-BRCA"
-````
+```
 ```{r query tcga-brca, results='markup'}
 # Query TCGA-BRCA RNA-seq data
 query <- GDCquery(
